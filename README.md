@@ -1,2 +1,2 @@
 # numberToWord
-A php file for convert any number to word form.
+A php file to convert any number to word form.
