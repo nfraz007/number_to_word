@@ -11,8 +11,11 @@ First, import the file numberToWord.php
 ```import github.com/nfraz007/numberToWord```
 
 ### Function name and parameter
+
 name : convert()
+
 input : string
+
 output : json
 
 ### Maximum limit of length of input string = 99
