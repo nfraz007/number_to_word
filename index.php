@@ -1,6 +1,6 @@
 <?php
-require_once 'numberToWord.php';
+require_once 'NumberToWord.php';
 
-$number=$_REQUEST["number"];
+$number=123;
 echo convert($number);
 ?>
