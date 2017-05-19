@@ -4,35 +4,30 @@ A php file to convert any number to word form.
 # Documentation
 You can find the documentation at https://nfraz007.github.io/NumberToWord/
 
-## Setup
+# Setup
 
-First, import the file NumberToWord.php
+Setup is very easy, just import the file into your project and you are all set.
+
+```
+include("NumberToWord.php");
+```
+
+or
 
 ```
 require 'NumberToWord.php';
 ```
 
-### Function name and parameter
-To convert any number to its word form, you have to call a function convert(), which take one parameter as string and give a output in json. Please see the function detail given below.
+# Convert a number
+To convert any number to its word form, create an instance of NumberToWord class. you can then call the convert() function on the NumberToWord object, passing one parameter as number you want to convert
 
-name : convert()
+* Input must be a integer value in string format.
 
-input : string
+* **Maximum limit of length of input string = 99**
 
-output : json
-
-### Maximum limit of length of input string = 99
-
-### Convert number
 ```
-  // call convert(string) funtion, it will return a json string.
-  $output = convert('123');
-  $output = convert('1a');
-  $output = convert('0');
-  
-  /*
-    {"status":"success", "input":"123", "output":"one hundred twenty-three"}
-    {"status":"error", "input":"1a", "output":"not a valid number"}
-    {"status":"success", "input":"0", "output":"zero"}
-  */
+$obj = new NumberToWord();
+echo $obj->convert("123");
 ```
+
+> one hundred twenty-three
