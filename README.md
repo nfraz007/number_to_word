@@ -2,7 +2,8 @@
 A php file to convert any number to word form.
 
 # Documentation
-You can find the documentation at https://nfraz007.github.io/NumberToWord/
+Full documentation [Click here](https://nfraz007.github.io/NumberToWord/)
+Live demo [Click here](http://nfraz.co.nf/demo/numberToWord/demo.php)
 
 # Setup
 
