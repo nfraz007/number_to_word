@@ -4,7 +4,7 @@ A php file to convert any number to word form.
 # Documentation
 Full documentation [Click here](https://nfraz007.github.io/number_to_word/)
 
-Live demo [Click here](http://nazishfraz.co.nf/number_to_word)
+Live demo [Click here](http://project.nfraz.co.in/number_to_word)
 
 # Setup
 
